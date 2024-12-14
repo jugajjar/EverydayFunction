@@ -1,4 +1,20 @@
 function Get-Greeting {
+    <#
+.SYNOPSIS
+    Displays a personalized greeting based on the current time of day.
+
+.DESCRIPTION
+    The `Get-Greeting` function determines the current hour and selects an appropriate greeting based on the time of day (Morning, Afternoon, Evening, or Night). It then greets the current user by name, displaying a message such as "Good Morning, [User]!" in the PowerShell console.
+
+.PARAMETER None
+    This function does not accept any parameters.
+
+.EXAMPLE
+    Get-Greeting
+    Output:
+        Good Morning, JohnDoe! Welcome to your PowerShell session.
+        (The greeting will change depending on the current time of day.)
+    #>
     # Get the current hour
     $currentHour = (Get-Date).Hour
 
