@@ -12,7 +12,8 @@ This repository contains a collection of useful PowerShell functions that I use 
 You can clone this repository to your local machine and source the PowerShell scripts for your session.
 
 If you want to get automatic update run the following line in your powershell:
+```
 iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/jugajjar/EverydayFunction/main/install.ps1'))
-
+```
 ### Functions
 
