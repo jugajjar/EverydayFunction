@@ -13,7 +13,7 @@ You can clone this repository to your local machine and source the PowerShell sc
 
 If you want to get automatic update run the following line in your powershell:
 ```
-iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/jugajjar/EverydayFunction/main/install.ps1'))
+iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/jugajjar/EverydayFunction/main/Install.ps1'))
 ```
 ### Functions
 
